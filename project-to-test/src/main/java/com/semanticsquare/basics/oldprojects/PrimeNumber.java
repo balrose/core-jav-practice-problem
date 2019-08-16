@@ -15,8 +15,8 @@ public class PrimeNumber {
             return false;
         }
 
-    //    int  top = (int)Math.sqrt(num) + 1;
-        for(int i = 3; i < num/2; i+=2){
+        int  top = (int)Math.sqrt(num) + 1; //remember the algorithm was i <= sqrt(number)
+        for(int i = 3; i < top; i+=2){
 
 
             if(num % i == 0){
