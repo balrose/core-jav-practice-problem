@@ -7,8 +7,10 @@ public class Factorial10 {
         public static double factorial(double n)
         {
           
-            if (n <= 1)
+        	//TODO: 0! should return 1, if you please fix the issue, thanks
+            if (n <= 1) {
                 return n;
+            }
             for(int i=0;i<=n;i--);
             return factorial(n - 1)*n;
         }
