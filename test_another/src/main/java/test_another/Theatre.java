@@ -70,16 +70,6 @@ public class Theatre {
 	            }
 	        }
 
-	        public boolean cancel() {
-	            if(this.reserved) {
-	                this.reserved = false;
-	                System.out.println("Reservation of seat " + seatNumber + " cancelled");
-	                return true;
-	            } else {
-	                return false;
-	            }
-	        }
-
 	        public String getSeatNumber() {
 	            return seatNumber;
 	        }

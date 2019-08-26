@@ -1,5 +1,4 @@
 package test_another;
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;

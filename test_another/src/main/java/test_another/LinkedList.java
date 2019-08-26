@@ -1,7 +1,5 @@
 package test_another;
 
-import javax.xml.soap.Node;
-
 public class LinkedList {
 public int data;
 public LinkedList next;
