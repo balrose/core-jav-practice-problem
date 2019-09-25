@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.learn.java:spring-boot-rest-api1 >----------------
+[INFO] Building spring-boot-rest-api1 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-boot-rest-api1 ---
+[INFO] Deleting C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-rest-api1 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-rest-api1 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-rest-api1 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-rest-api1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-boot-rest-api1 ---
+[INFO] 
+[INFO] --- maven-war-plugin:3.2.3:war (default-war) @ spring-boot-rest-api1 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring-boot-rest-api1] in [C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\target\spring-boot-rest-api1-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\src\main\webapp]
+[INFO] Webapp assembled in [1582 msecs]
+[INFO] Building war: C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\target\spring-boot-rest-api1-0.0.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spring-boot-rest-api1 ---
+[INFO] Installing C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\target\spring-boot-rest-api1-0.0.1-SNAPSHOT.war to C:\Users\balen\.m2\repository\org\learn\java\spring-boot-rest-api1\0.0.1-SNAPSHOT\spring-boot-rest-api1-0.0.1-SNAPSHOT.war
+[INFO] Installing C:\Users\balen\eclipse-workspace\spring-boot-rest-api1\pom.xml to C:\Users\balen\.m2\repository\org\learn\java\spring-boot-rest-api1\0.0.1-SNAPSHOT\spring-boot-rest-api1-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.163 s
+[INFO] Finished at: 2019-09-25T11:02:19-04:00
+[INFO] ------------------------------------------------------------------------
